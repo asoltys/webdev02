@@ -1,0 +1,102 @@
+/* CSS Document */
+
+
+/**********************************
+	Navigation Button
+***********************************/
+
+div.center a.button, div.center a.button:visited { /* I include :visited because IE won't recognize otherwise */
+	display: block;
+	text-align: center;
+	color: #fff;	
+	font-weight: bold;
+	padding: 0.6em 1em;
+	background: #369;
+	border-left: 2px solid #69C;
+	border-top: 2px solid #69C;
+	border-right: 2px solid #036;
+	border-bottom: 2px solid #036;	
+	text-decoration: none;
+}
+
+div.center a.button:hover {
+	background: #58B;
+	border-left: 2px solid #369;
+	border-top: 2px solid #369;
+	border-right: 2px solid #69C;
+	border-bottom: 2px solid #69C;
+}
+
+
+/****************************************
+	Section with Heading and Thumbnail
+*****************************************/
+
+/* Push all the content towards the right */
+div.section {
+	margin-left: 150px;
+}
+
+/* But for the h2 and floating image, we went to align them to the left by ignoring the margin */
+div.section h2, div.section img.floatLeft {
+	margin-left: -150px;
+}
+
+div.section h2 {
+	color: #fff;
+	background: #369;
+	border-bottom: 1px solid #556677;
+	padding: 3px;
+	font-size: 120%;	
+}
+
+/****************************************
+	Hide Services for Govrnmt sub-menu
+*****************************************/
+
+	/* Hide certain sub-menus:  */
+	#navgouvgov
+	{
+		display: none;
+	}
+	#navResSearch
+	{
+		display: none;
+	}
+	
+/****************************************
+	Adjust spacing for main entry pages
+*****************************************/
+hr.space
+{
+display:none;
+margin-bottom:60px;
+}
+
+/****************************************
+	Green Procurement tables
+*****************************************/
+td.green {
+background: #00FF00;
+		}
+
+td.yellow {
+background: #FFFF00;
+		}
+		td.red {
+background: #FF4A00;
+color: #FFFFFF;
+		}
+.noshow {
+		display: none;
+		}
+
+td.red-text {
+color: #cc0000;
+		}
+/***********************************
+Upper Case Class
+**********************************/
+.uppercase {
+	text-transform: uppercase;
+}

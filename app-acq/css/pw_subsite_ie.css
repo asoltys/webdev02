@@ -1,0 +1,1184 @@
+body {
+	margin: 0 0 4px 4px;
+	font-size: 80%;
+	font-family: "Trebuchet MS", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;
+	color: #000000;
+	}
+
+/* debut des boutons noirs de navigation/start sub-site black navigation buttons */
+a.GOCMenu:link { color: #fff; text-decoration: none; background-color: #000; }
+a.GOCMenu:visited { color: #fff; text-decoration: none; background-color: #000; }
+a.GOCMenu:hover { color: #fff; text-decoration: none; background-color: #000; }
+a.GOCMenu:focus { color: #fff; text-decoration: none; background-color: #000; }
+a.GOCMenu:active { color: #fff; text-decoration: none; background-color: #000; } 
+
+td.GOCMenuCell { 
+	vertical-align: middle;
+	font-family: arial, helvetica, verdana, sans-serif;
+	font-size: 90%;
+	font-weight: bold;
+	background-color: #000;
+	height: 14px;
+}
+
+/* debut des boutons verts de navigation/start sub-site green navigation buttons */
+a.CorpMenu:link { color: #fff; text-decoration: none; background-color: #060; }
+a.CorpMenu:visited { color: #fff; text-decoration: none; background-color: #060; }
+a.CorpMenu:hover { color: #fff; text-decoration: none; background-color: #060; }
+a.CorpMenu:focus { color: #fff; text-decoration: none; background-color: #060; }
+a.CorpMenu:active { color: #fff; text-decoration: none; background-color: #060; }
+
+td.CorpMenuCell {
+	vertical-align: middle;
+	font-family: arial, helvetica, verdana, sans-serif;
+	font-size: 90%;
+	font-weight: bold;
+	color: white;
+	background-color: #060;
+	height: 14px;
+}
+
+/* submenu start */
+
+td.submenu a span {
+	padding-left: 5px;
+	}
+
+td.submenu a, td.submenu a:link, td.submenu a:visited, td.submenu a:active, td.submenu a:hover {
+	width: 89px;
+	display: block;
+	font-size: 90%;
+	text-decoration: none;
+	font-family: arial, helvetica, verdana, sans-serif;
+	font-weight: bold;
+	color: #fff;
+	background-color: #036;
+	}
+
+/* General Text Alignment*/
+
+.align-center{text-align: center;}
+.align-left{text-align: left;}
+.align-right{text-align: right;}
+
+/* End General Text Alignment*/
+
+/* General Text Indentation*/
+.indent-left10{
+	padding-left: 10px;
+}
+.indent-left15{
+	padding-left: 15px;
+}
+.indent-left20{
+	padding-left: 20px;
+}
+.indent-left30{
+	padding-left: 30px;
+}
+.indent-left40{
+	padding-left: 40px;
+}
+
+/* Underline */ 
+.uline{ 
+	text-decoration:underline;
+}
+
+/* General Text Indentation*/
+
+/* Navigation
+----------------------------------------------- */
+	#leftnavcontainer {
+			width: 132px;
+			}
+
+	ul.level1,
+	ul.level2 {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		}
+
+	ul.level1 li {
+		padding-bottom: 2px;
+		}
+
+	/*Level 1*/
+	ul.level1 a,
+	ul.level1 a:link,
+	ul.level1 a:visited,
+	ul.level1 a:active {
+		display: block;
+		width: 111px;
+		padding: 3px 3px 3px 18px;
+		background: #036 url(/acquisitions/images/sn-arrow.gif) no-repeat center left;
+		color: #fff;
+		text-decoration: none;
+		}
+
+	ul.level1 a:hover {
+		background: #cc9 url(/acquisitions/images/sn-arrow-hover.gif) no-repeat center left;
+		color: #036;
+		}
+
+	ul.level1 li.arrowdown a,
+	ul.level1 li.arrowdown a:link,
+	ul.level1 li.arrowdown a:visited,
+	ul.level1 li.arrowdown a:active,
+	ul.level1 li.arrowdown a:hover {
+		background: #cc9 url(/acquisitions/images/sn-arrow-down.gif) no-repeat center left;
+		color: #033;
+		}
+
+	/*Level 2*/
+	ul.level1 li ul.level2 li a,
+	ul.level1 li ul.level2 li a:link,
+	ul.level1 li ul.level2 li a:visited,
+	ul.level1 li ul.level2 li a:active {
+		display: block;
+		background: #F0F0E0;
+		color: #000;
+		text-decoration: none;
+		font-size: 90%;
+		}
+
+	ul.level1 li ul.level2 li a:hover {
+		color: #000;
+		text-decoration: underline;
+		background-image: none;
+		background-color: #F0F0E0;
+		}
+		
+
+
+/* breadcrumbs treatment */
+.breadcrumbs {
+	font-size: 80%;
+	padding: 3px 0 3px 0;
+	color: #036;
+	font-family: arial, verdana, sans-serif;
+	}
+
+.breadcrumbs a:link, .breadcrumbs a:visited, .breadcrumbs li a:active {
+	padding: 2px;
+	text-decoration: none;
+	color: #036;
+	}
+	
+.breadcrumbs a:hover {
+	color: #fff;
+	background: #036;
+	}
+	
+/* title styles */
+
+h1, h2, h3, h4, h5{
+	font-weight: bold;
+	}
+
+h1 {
+	font-size: 150%;
+	color: #036;
+	}
+	
+h2 {
+	font-size: 125%;
+	color: #933;
+	}
+
+h3 {
+	font-size: 110%;
+	color: #036;
+	}
+
+h4 {
+	font-size: 100%;
+	color: #933;
+	}
+	
+h5 {
+	font-size: 95%;
+	color: #036;
+	}
+
+.maintain {
+	margin-top: 90%;
+	border-top: 1px solid #000;
+	padding-top: 2px;
+	font-size: 90%;
+	}
+
+.smallfont {
+	font-size: 80%
+}
+
+.blue {
+	color: #036;
+} 
+	
+.red {
+	color: #933;
+}
+
+.red2 {
+	color: #FF0000;
+}
+
+	
+/* treatment for back to top arrow */
+.top {
+	text-align: right;
+	}
+
+a.toparrow, a.toparrow:link, a.toparrow:active, a.toparrow:visited {
+	font-size: 10px;
+	color: #036;
+	text-decoration: none;
+	background: none;
+	margin-left: 10px;
+	padding-left: 20px;
+	background: url(/acquisitions/images/up_arrow.gif) no-repeat center left;
+
+	}
+
+	a:link, a:visited, a:active	{
+		color: #036;
+		}
+
+	a:hover {
+		color: #fff;
+		background-color: #036;
+		}
+
+
+ol.flushleft, ul.flushleft {
+	padding-left: 15px;
+}
+
+ul.bullet {
+	list-style-image: url(/acquisitions/images/bullet.gif);
+	text-decoration: none;
+}
+
+.center {
+	text-align: center;
+	}
+
+ol.numbers {
+	list-style: decimal;
+}
+
+ul.nobullet, ol.nobullet {
+	list-style-type: none;
+	
+}
+ul li.nobullet  {
+	padding: 0 0 15px 0;
+}
+ol.loweralpha {
+	list-style-type: lower-alpha;
+}
+
+ol.upperalpha {
+	list-style-type: upper-alpha;
+}
+
+ol li{
+	padding: 0 0 5px 0;
+}
+
+ol.lowerroman {
+	list-style-type: lower-roman;
+}
+
+.double li { 
+	margin-bottom: 10px;
+}
+
+.outline {
+	border: 1px solid #999;
+	padding: 10px;
+}
+
+/* treatment for links to previous and next at bottom */
+
+.arrowbox.bottom {
+	border-bottom: none;
+	min-height: 30px;
+	}
+
+.arrowbox ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	}
+
+.arrowbox ul li {
+	float: left;
+	width: 150px;
+	text-align: center;
+	}
+
+.arrowbox ul li a {
+	display: block;
+	}
+
+.arrowbox ul li a.right {
+	background: url(/acquisitions/images/right_arrow.gif) no-repeat center right;
+	}
+
+.arrowbox ul li a.right:hover {
+	background: #933 url(/acquisitions/images/right_arrow_over.gif) no-repeat center right;
+	color: #fff;
+	}
+
+.arrowbox ul li a.left {
+	background: url(/acquisitions/images/left_arrow.gif) no-repeat center left;
+	}
+
+.arrowbox ul li a.left:hover {
+	background: #933 url(/acquisitions/images/left_arrow_over.gif) no-repeat center left;
+	color: #fff;
+	}
+
+dl.acronym {
+	margin-bottom: 10px;
+	width: 100%;
+	}
+.acronym dt {
+	width: 20%;
+	float: left;
+	clear: both;
+	}
+.acronym dd {
+	margin: 0;
+	width: 80%;
+	float: left;
+	}
+
+
+/* sr - use the following table rules for data tables that are 450 pixels wide */
+table.standard {	
+	border-collapse: collapse;
+	width: 450px;
+	margin-bottom: 10px;
+}
+
+table.standard th {
+	border: 1px solid #ccc;
+	font-size: 100%;
+	font-weight: bold;
+	color: #036;
+	background: transparent;
+}
+
+table.standard td {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	padding: 4px;
+	vertical-align: top;
+}
+
+table.standard td.centered {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	padding: 4px;
+	vertical-align: middle;
+	text-align:center;
+}
+
+table.standard td.color {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	padding: 4px;
+	vertical-align: top;
+	background-color:#FFFF00;
+}
+
+table.standard td.colortext {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	padding: 4px;
+	vertical-align: top;
+	color: #FF0000;
+}
+table.standard caption {
+	text-align: left;
+	font-weight: bold;
+	font-size: 110%;
+	color: #933;
+	margin-top: 10px;
+	margin-bottom: 6px;
+}
+
+table.smfont {	
+	border-collapse: collapse;
+	width: 450px;
+	margin-bottom: 10px;
+}
+
+table.smfont th {
+	border: 1px solid #ccc;
+	font-size: 90%;
+	font-weight: bold;
+	color: #036;
+	background: transparent;
+}
+
+table.smfont td {
+	border: 1px solid #ccc;	
+	font-size: 90%;
+	border-collapse: collapse;
+	padding: 4px;
+	vertical-align: top;
+}
+
+table.smfont caption {
+	text-align: left;
+	font-weight: bold;
+	font-size: 100%;
+	color: #933;
+	margin-top: 10px;
+	margin-bottom: 6px;
+}
+
+td.red {
+background: #CC0033;
+color: #FFFFFF;
+		}
+		
+td.red-white {
+background: #CC0033;
+color: #FFFFFF;
+		}
+
+td.red-black {
+background: #CC0033;
+color: #000000;
+		}
+		
+td.blue-text {
+color: #003366;
+		}
+td.red-text {
+color: #cc0000;
+		}
+		
+td.red-yellow {
+background: #CC0033;
+color: #FFFF00;
+		}
+		
+td.yellow {
+background: #FFFF00;
+		}
+		
+td.gray {
+background: #00FFFF;
+		}
+td.green {
+background: #00FF00;
+		}
+
+table.centered {	
+	border-collapse: collapse;
+	width: 450px;
+	margin-bottom: 10px;
+}
+
+table.centered th {
+	border: 1px solid #ccc;
+	font-size: 100%;
+	font-weight: bold;
+	color: #036;
+	background: transparent;
+}
+
+table.centered td {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	padding: 4px;
+	vertical-align: top;
+	text-align: center;
+}
+
+table.centered caption {
+	text-align: left;
+	font-weight: bold;
+	font-size: 110%;
+	color: #933;
+	margin-top: 10px;
+	margin-bottom: 6px;
+}
+
+/* wide tables */
+
+table.wide {	
+	border-collapse: collapse;
+	border: 1px solid #ccc;
+	width: 450px;
+	margin-bottom: 10px;
+}
+
+table.wide th {
+	border: 1px solid #ccc;
+	font-size: 95%;
+	font-weight: bold;
+	color: #036;
+	background: transparent;
+}
+
+table.wide td {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	padding: 4px;
+	vertical-align: top;
+}
+
+/* table with left aligned text*/
+
+table.standardLeft {	
+	border-collapse: collapse;
+	width: 450px;
+	margin-bottom: 10px;
+	padding: 5px;
+	text-align:left;
+}
+
+table.standardLeft th {
+	border: 1px solid #ccc;
+	font-size: 100%;
+	font-weight: bold;
+	color: #036;
+	background: transparent;
+}
+
+table.standardLeft td {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	padding: 4px;
+	vertical-align: top;
+}
+
+	/*text float*/
+	.returnNav {
+		width: 175px;
+		float: right;
+		margin: 0;
+		padding: 12px;
+		}
+
+	.returnNav li {
+		margin: 0;
+		padding: 12px 0 5px 25px;
+		list-style: none;
+		background: url(/acquisitions/images/left_arrow.gif) center left no-repeat;
+		}
+
+	.returnNav li.second {
+		background: url(/acquisitions/images/left_arrow.gif) center left no-repeat;
+		padding-top: 5px;
+		}
+
+	.returnNav1 {
+		width: 175px;
+		float: right;
+		margin: 0;
+		padding: 12px;
+		background: url(/acquisitions/images/left_arrow.gif) center left no-repeat;
+		}
+
+
+/* Image Float */
+	.imageleft {
+		float: left; 
+		text-align: center;
+		}
+
+	.imageright {
+		float: right;
+		text-decoration: none;
+		}
+	
+	.imagecenter {
+		float: none;
+		text-align: center;
+		}
+
+/*GoCM calendar */
+	.date {
+		font-size: 110%;
+		font-weight: bold;
+		text-align: left;
+		}
+
+	.redcal {
+		font-size: 80%;
+		color: #933;
+		}
+
+	.bluecal {
+		font-size: 80%;
+		color: #036;
+		}
+
+	.greycal {
+		font-size: 80%;
+		color: #999;
+		}
+
+	.redbold {
+		font-size: 80%;
+		font-weight: bold;
+		color: red;
+		}
+
+	.bordertop {
+		border-top: solid #ccc thin;
+		
+		}
+/* New 2008*/
+
+/*div.signature {
+	margin: 0; padding: 0; width: 98.5%;
+	
+	}
+div.signaturelineleft {
+	float: left; width: 49%; margin: 0 1px 1px 0; padding: 2px; border-top:solid #0000 1px;
+	
+}
+div.signaturelineright {
+	float: right; width: 49%; margin: 0 1px 1px 0; padding: 2px; border-top:solid #0000 1px;*/
+
+
+/* GOCM table - use the following table rules for calendar tables */
+	table.gocm {
+		border-collapse: collapse;
+		width: 450px;
+		margin-bottom: 10px;
+		}
+
+	table.gocm th {
+		border: 1px solid #ccc;
+		font-size: 100%;
+		font-weight: bold;
+		color: #fff;
+		background: #036;
+		}
+
+	table.gocm td {
+		border: 1px solid #ccc;
+		border-collapse: collapse;
+		padding: 4px;
+		vertical-align: top;
+		}
+
+	table.gocm caption {
+		text-align: left;
+		font-weight: bold;
+		font-size: 110%;
+		color: #933;
+		margin-top: 10px;
+		margin-bottom: 6px;
+		}
+
+
+/* alphaList
+----------------------------------------------- */
+	.alphaList {
+		list-style-type:none;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		text-transform: uppercase;
+		}
+
+	.alphaList li {
+		display: inline;
+		}
+
+	.alphaList li a,
+	.alphaList li a:link,
+	.alphaList li a:visited,
+	.alphaList li a:active {
+		font-weight: bold;
+		text-decoration: underline;
+		padding: 3px 2px;
+		}
+
+	.alphaList li a:hover {
+		color: white;
+		}
+
+	.wrapper ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		}
+
+
+/* newsBox / What's New
+----------------------------------------------- */
+	.newsBox {
+		width: 100%;
+		background: url(/acquisitions/images/newsBoxBg.png) no-repeat bottom left;
+		height: 150px;
+		padding: 5px 0;
+		}
+
+	td > .newsBox {
+		min-height: 150px;
+		height: auto;
+		}
+
+	.newsBox p {
+		font-weight: bold;
+		font-size: 130%;
+		margin: -5px 0 0;
+		padding: 5px 0 0 5px;
+		background: url(/acquisitions/images/newsBoxTop.png) no-repeat top left;
+		}
+
+	.newsBox ul {
+		margin: 0;
+		padding: 5px 80px 8px 20px;
+		list-style: none;
+		}
+
+	.newsBox ul li {
+		background: url(/acquisitions/images/newsBoxList.gif) no-repeat center left;
+		padding: 0 0 0 15px;
+		}
+
+	.newsBox ul li a {
+		color: #333;
+		text-decoration: underline;
+		}
+
+	.newsBox ul li a:hover {
+		background: none;
+		color: #333;
+		text-decoration: none;
+		}
+
+	/* What's New */
+	.newsBox.new {
+		background: url(/acquisitions/images/newBg.png) no-repeat bottom left;
+		height: 130px;
+		}
+
+	td > .newsBox.new {
+		min-height: 130px;
+		height: auto;
+		}
+
+	.newsBox.new p span {
+		font-size: 80%;
+		padding-left: 8px;
+		}
+
+	.newsBox.new ul {
+		margin-right: 150px;
+		}
+
+	.newPics ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		}
+
+	.newPics ul li {
+		float: left;
+		width: 225px;
+		margin: 10px 0 15px;
+		padding: 0;
+		text-align: left;
+		}
+
+	.newPics ul li.imgLocation {
+		background: url(/acquisitions/images/divider.png) repeat-y center left;
+		}
+
+	.newPics ul li a {
+		background: url(/acquisitions/images/newPics.png) no-repeat top right;
+		display: block;
+		padding: 0 105px 0 10px;
+		text-decoration: none;
+		color: #333;
+		}
+
+	.newPics ul li a:hover {
+		text-decoration: underline;
+		color: #333;
+		background-color: transparent;
+		}
+
+	.bottomList {
+		clear: both;
+		background: url(/acquisitions/images/bottomListBg.png) no-repeat top left;
+		}
+
+	.bottomList p {
+		font-size: 100%;
+		padding-left: 8px;
+		background: none;
+		}
+
+
+/*test for supply management news*/
+/* nsBox / What's New
+----------------------------------------------- */
+	.nsBox {
+		width: 230px;
+		background: url(/acquisitions/images/newsBoxBg.png) no-repeat bottom left;
+		height: 150px;
+		margin: 0 0 0 10px;
+		padding: 5px 0;
+		float: right;
+		
+		}
+
+	td > .nsBox {
+		min-height: 150px;
+		height: auto;
+		}
+
+	.nsBox p {
+		font-size: 100%;
+		margin: 0 5px 0;
+		padding: 0;
+		font-weight: bold;
+		}
+
+	.nsBox p.heading {
+		font-weight: bold;
+		font-size: 110%;
+		margin: -5px 0 0;
+		padding: 5px 0 0 5px;
+		background: url(/acquisitions/images/newsBoxTop.png) no-repeat top left;
+		color: #333;
+		}
+
+	.nsBox ul {
+		margin: 0;
+		padding: 5px 10px 8px 20px;
+		list-style: none;
+		}
+
+	.nsBox ul li {
+		background: url(/acquisitions/images/newsBoxList.gif) no-repeat 0 0.75em;
+		padding: 2px 0 2px 15px;
+		color: #333;
+		}
+
+	.nsBox ul li a {
+		color: #333;
+		}
+
+	.nsBox ul li a:hover {
+		color: #fff;
+		}
+		
+		
+/* ns2Box width 100% */
+
+/* nsBox / What's New
+----------------------------------------------- */
+	.ns2Box {
+		width: 100%;
+		background: url(/acquisitions/images/newsBoxBg.png) no-repeat bottom left;
+		height: 150px;
+		margin: 0 0 0 10px;
+		padding: 5px 0;
+		float: right;
+		}
+
+	.ns2Box p {
+		font-size: 100%;
+		margin: 0 5px 0;
+		padding: 0;
+		font-weight: bold;
+		}
+
+	.ns2Box p.heading {
+		font-weight: bold;
+		font-size: 110%;
+		margin: -5px 0 0;
+		padding: 5px 0 0 5px;
+		background: url(/acquisitions/images/newsBoxTop.png) no-repeat top left;
+		color: #333;
+		}
+
+	.ns2Box ul {
+		margin: 0;
+		padding: 5px 10px 8px 20px;
+		list-style: none;
+		}
+
+	.ns2Box ul li {
+		background: url(/acquisitions/images/newsBoxList.gif) no-repeat 0 0.75em;
+		padding: 2px 0 2px 15px;
+		color: #333;
+		}
+
+	.ns2Box ul li a {
+		color: #333;
+		}
+
+	.ns2Box ul li a:hover {
+		color: #fff;
+		}
+
+	ul.chkbox {
+		margin: 0;
+		padding: 5px 10px 8px 20px;
+		list-style: none;
+		}
+
+	ul.chkbox li {
+	padding: 2px 0 2px 15px;
+	color: #333;
+	background-image: url(/acquisitions/images/chkbox.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+		}
+
+	ul.chkbox li.chkd {
+		background: url(/acquisitions/images/chkbox2.gif) no-repeat center left;
+		padding: 2px 0 2px 15px;
+		color: #333;
+		}
+
+
+/* File Container
+----------------------------------------------- */
+	.fileContainer {
+		float: right;
+		width: 150px;
+		margin: 15px 0 0;
+		padding: 0 0 5px 5px;
+		border-bottom: 1px solid #999;
+		border-left: 1px solid #999;
+		}
+
+	.fileContainer a,
+	.fileContainer a:link,
+	.fileContainer a:visited,
+	.fileContainer a:active {
+		font-size: 90%;
+		color: #060;
+		padding-right: 10px;
+		}
+
+	.fileContainer a:hover {
+		background: none;
+		text-decoration: none;
+		color: #060;
+		}
+
+
+/* File Container
+----------------------------------------------- */
+	.highlightBox {
+		background: #ccc;
+		border: 1px solid #c00;
+		text-align: center;
+		margin: 0;
+		padding: 3px;
+		}
+
+
+/* horizontal rule
+----------------------------------------------- */
+	.divide {
+		margin-left: 0;
+		width: 200px;
+		}
+
+
+/* Structure
+----------------------------------------------- */
+	dl {
+		margin-left: 15px;
+		}
+
+	dt {
+		font-weight: bold;
+		}
+
+	dd {
+		margin-left: 0;
+		padding: 5px 0 20px 20px;
+		}
+		
+	.faq dt {
+		font-weight: bold;
+		}
+
+	.faq dd {
+		font-weight: bold;
+		margin-top: -22px;
+		margin-left: 20px;
+		}
+
+	.faqa dd {
+		margin-top: -24px;
+		margin-left: 20px;
+		}
+
+
+	.steps {
+		color: #333;
+		text-transform: uppercase;
+		font-weight: bold;
+		padding: 0 0 0 15px;
+		margin: 0 0 -12px;
+		background: url(/acquisitions/images/down-arrow.gif) no-repeat center left;
+		}
+	
+	.forlayout {
+		width: 450px;
+		}
+
+	.forlayout dl {
+		border-top: 1px solid #ccc;
+		border-left: 1px solid #ccc;
+		padding: 8px;
+		}
+
+	.forlayout dt {
+		font-size: 110%;
+		padding: 5px;
+		background: #9c9 url(/acquisitions/images/dt-bg.jpg) no-repeat bottom left;
+		height: 1%;
+		}
+
+	.forlayout dd {
+		margin-left: 15px;
+		margin-bottom: 2px;
+		padding: 8px 0 8px 10px;
+		background: #eee url(/acquisitions/images/dd-bg.jpg) no-repeat bottom left;
+		height: 1%;
+		}
+
+	dl.space {
+		margin-bottom: 10px;
+		width: 100%;
+		}
+
+	.space dt {
+		width: 30%;
+		float: left;
+		clear: both;
+		font-weight: normal;
+		}
+
+	.space dd {
+		margin: 0 0 7px 0;
+		padding: 0;
+		width: 70%;
+		float: left;
+		}
+
+	.clear {
+		clear: both;
+		}
+
+	.noshow {
+		display: none;
+		}
+
+	.wrap {
+		width: 450px;
+		}
+		
+/* FLOATING COLUMN STRUCTURE / STRUCTURE DE LA COLONNE FLOTTANTE
+
+================================================================= */
+
+	#columnTwo {
+
+		width: 170px;
+		float: right;
+		margin: 15px 0 0;
+		padding-left: 10px;
+		padding-right: 10px;
+		background-color: #fff;
+		border:  1px dashed #036;  /* This line can be removed. / Cette ligne peut être effacée. */
+		}
+
+	#columnTwo.spec ul {
+
+		list-style: disc;
+
+		}
+
+	#columnTwo.spec ul li {
+
+		margin-bottom: 10px;
+
+		}
+
+	#columnTwo ul {
+
+		padding-left: 15px;
+		margin-top: 6px;
+		margin-bottom: 5px;
+		margin-left: 0;
+
+		}
+
+	#columnTwo a:link {
+
+		color: #036;
+
+		}
+
+	#columnTwo  a:hover {
+
+		color: #fff;
+		background-color: #036;		
+
+		}
+
+	#columnTwo img {
+
+		padding: 3px 0;
+
+		}
+		.disclaimer {
+		
+	
+	font-size: 85%;
+
+	border: 1px solid #000;
+
+	padding: 5px 5px 5px 5px;
+
+	margin: 0;
+	
+	}
+	
+		.disclaimer h2{
+		text-align:center
+		
+		}
+		
+		.disclaimer h3{
+		margin-bottom:0;
+		margin-top:1em
+		
+		}
+		
+		.disclaimer p{
+		margin-bottom:1em;
+		margin-top:0
+		
+		}
+/* Highlight Feature 2008 added by Keith Lamont*/
+.highlite{background:#FFFF99;}
+.highliteorange{background-color: #FFD071;}
+/* Bulletin Box Feature 2008 added by Keith Lamont*/
+.bulletinbox{ border:1px solid black; text-align:center; padding:0px 5px 0px 5px;}
+ul.nobulletpad li {	list-style: none; padding-bottom: 10px;}

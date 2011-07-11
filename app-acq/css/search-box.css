@@ -1,0 +1,32 @@
+/* CSS Document */
+
+/*Search Box Holder 
+Scott Campagnolo - 30/06/09*/
+
+#SearchBox{
+ background-color: #369;/*c00*/
+ color: #fff;
+ font-size: 11px;
+ /*text-align: right;*/
+ width:100%;
+ padding:2px 0 2px 0;
+ margin:0 0 5px 0;
+}
+#SearchBox .text {
+ color:#222;
+ border:2px solid #369;/*69c*/
+ margin:0;
+ padding:0;
+ background:#fff;
+
+}
+form {
+margin: 0;
+padding: 0;
+} 
+
+#SearchBox p {
+ background:#369;
+ padding:0;
+ margin:0;
+}
