@@ -1,3 +1,6 @@
 [submodule "ipmg"]
 	path = ipmg
 	url = git@pacdev2.ncr.pwgsc.gc.ca:/var/git/ipmg.git
+[submodule "ipmg_new"]
+	path = ipmg_new
+	url = https://github.com/asoltys/ipmg_new.git
