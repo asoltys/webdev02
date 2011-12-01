@@ -1,0 +1,7 @@
+October 31, 2007 - RM
+corp-nav ssi file updated with new Corporate CLF 2 links.
+
+DEC 28, 2007 - DT
+ALL remaining CLF02/SSI files have been updated with links to the new CLF 2.0 Corporate Site.
+
+All sites under www.pwgsc.gc.ca that are using PWGSC CLF 1.0 Template v2.1 will be affected. All other sites will have to update their own ssi files.

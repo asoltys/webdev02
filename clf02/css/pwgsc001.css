@@ -1,0 +1,271 @@
+/*
+	File Name/Nom du fichier:		pwgsc001.css
+	Author/Auteur:					Web Services CoE / CE des services Webs
+	Date Created/Date de création:	03-10-2002 (mm-dd-yyyy)
+*/
+
+/*	
+	File functions/Fonction du fichier:
+	---------------------------------------------------------------------------
+		This is the corporate stylesheet. 
+		
+		If any changes are made to this stylesheet, validate it before publishing:
+		http://validator.w3.org/
+	-----
+		Voici la feuille de style corporative.
+
+		Tout changement dans la feuille de style doit être validé avant publication:
+		http://validator.w3.org/
+
+
+	Revision History/Historique des révision:
+	Date											Revised By/Revue par
+	---------------------------------------------------------------------------
+	May 31, 2006									Web Services CoE
+	<em> and <strong> tags were removed.
+	---------------------------------------------------------------------------
+*/
+
+body { 
+  background: #FFFFFF;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 3%;
+}
+
+div.cen { 
+   font-weight: bold; 
+   font-size: 140%;
+   font-family: arial, helvetica, sans-serif; 
+   font-style: normal;
+   color: #CC3333;
+}
+
+p { 
+   font-size : 90%;
+  font-weight: normal;
+  font-family: arial, helvetica, sans-serif;  
+  font-style: normal;
+}
+ 
+.text { 
+   font-size : 90%;
+  font-weight: normal;
+  font-family: arial, helvetica, sans-serif;  
+  font-style: normal; font-variant: normal; 
+  color: #000000;
+}
+ 
+
+blockquote { 
+  font-weight: normal; 
+  font-family: arial, helvetica, sans-serif; 
+}
+
+b {
+  font-weight: bold; 
+}
+
+div.menu {
+   color: #000000;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 80%; 
+  font-weight: normal; 
+}
+
+div.midtext {
+   color: #000000;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 100%; 
+  font-weight: normal; 
+}
+
+div.midtextred {
+   color: #993300;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 100%; 
+  font-weight: normal; 
+}
+
+div.title {
+  color: #000099;
+  font-family: arial, helvetica, sans-serif; 
+  font-size: 110%; 
+  font-weight: bold; 
+  background: #FFFFFF;
+  font-style: normal; 
+}
+
+.menubig {
+  font-size: 100%; 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-style: normal; 
+  font-weight: normal; 
+  color: #000000;
+}
+
+div.newmenu {  
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size: 80%; 
+   font-weight: normal;
+}
+
+div.breadcrumbs {  
+   font-size: 60%; 
+   font-weight: lighter; 
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+div.breadcrumbs a {  
+   text-decoration: none;
+}
+
+div.subtitle {  
+   font-family: Arial, Helvetica, sans-serif; 
+   color: #000099; 
+   font-size: 100%; 
+   font-weight: bold;
+}
+
+
+img { 
+  border-style: none; 
+}
+
+/*
+The following lines were removed from UL and OL to give publishers
+the ability to use letters (a, b, c, etc. or i, ii, iii, etc.)
+UL: list-style: disc;
+OL: list-style: decimal; color:000000;
+*/
+
+ul {
+  font-family: arial, helvetica, sans-serif;
+}
+
+ol { 
+  font-family: arial, helvetica, sans-serif;
+}
+
+li { 
+  font-family: arial, helvetica, sans-serif; 
+}
+
+/* 
+a:link  {
+  color: #000099; text-decoration: none;
+} 
+
+a:visited  {
+  color: #9900CC;  text-decoration: none;
+}
+
+a:active  { 
+  color: #660099;  text-decoration: none;
+}
+
+a:hover { 
+  color: #660099; text-decoration: underline;
+}
+*/
+
+/* new default link behaviour */
+a:link  {
+  color: #006666; text-decoration: underline;
+} 
+
+a:visited  {
+  color: #996600;  text-decoration: underline;
+}
+
+a:active  { 
+  color: #003333;  text-decoration: none; background-color: #FFFFCC;
+}
+
+a:hover {
+	text-decoration: underline;
+	background-color: #FFFFCC;
+	color: #006666;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 9px;
+  padding-bottom: 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+h1 {   
+  background: #FFFFFF; 
+  font-style: normal; 
+  font-weight: bold; 
+  font-size: 125%; 
+  color: #336666; 
+  font-family: arial, helvetica, univers, sans-serif;
+}
+
+h2 { 
+  font-size: 115%; 
+  font-style: normal; 
+  font-weight: bold; 
+  color: #000000; 
+  font-family: arial, helvetica, univers, sans-serif;
+}
+
+h3 { 
+  font-size: 105%; 
+  font-style: normal; 
+  font-weight: bold;
+  color: #000000; 
+  font-family: arial, helvetica, univers, sans-serif;
+}
+
+h4 { 
+  font-size: 100%; 
+  font-style: normal; 
+  font-weight: bold; 
+  color: #000000; 
+  font-family: arial, helvetica, univers, sans-serif;
+}
+
+h5 { 
+  font-size: 100%; 
+  font-style: normal; 
+  font-weight: normal; 
+  font-family: arial, helvetica, univers, sans-serif;
+}
+
+h6 { 
+  font-size: 100%; 
+  font-weight: normal; 
+  color: #000000; 
+  font-family: arial, helvetica, univers, sans-serif;
+}
+
+dl { 
+  font-size: 80%; 
+  font-weight: normal; 
+  font-family: arial, helvetica, sans-serif; 
+}
+
+dt { 
+  font-weight: bold; 
+  font-size : 80%; 
+  font-family: arial, helvetica, univers, sans-serif; 
+}
+
+dd { 
+  font-size: 80%; 
+  font-weight: normal; 
+  font-family: arial, helvetica, sans-serif; 
+}
+
+@media print {
+  h1, h2, h3,
+  h4, h5, h6    { page-break-after: avoid; page-break-inside: avoid }
+  blockquote, 
+  pre           { page-break-inside: avoid }
+  ul, ol, dl    { page-break-before: avoid }
+}

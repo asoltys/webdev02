@@ -1,0 +1,3 @@
+[submodule "ipmg"]
+	path = ipmg
+	url = git@pacdev2.ncr.pwgsc.gc.ca:/var/git/ipmg.git
