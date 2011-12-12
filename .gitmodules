@@ -1,3 +1,9 @@
 [submodule "ggpfi-ipmg"]
 	path = ggpfi-ipmg
 	url = https://github.com/asoltys/ipmg.git
+[submodule "https:/github.com/asoltys/cse-egd.git"]
+	path = https:/github.com/asoltys/cse-egd.git
+	url = pd2:/var/git/egd_internet.git
+[submodule "cse-egd"]
+	path = cse-egd
+	url = pd2:/var/git/egd_internet.git
