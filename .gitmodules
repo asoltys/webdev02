@@ -3,4 +3,4 @@
 	url = https://github.com/asoltys/ipmg.git
 [submodule "cse-egd"]
 	path = pac/cse-egd
-	url = pd2:/var/git/egd_internet.git
+	url = https://github.com/asoltys/cse-egd.git
