@@ -1,4 +1,4 @@
-/* CLF 2.0 TEMPLATE VERSION 1.03 | VERSION 1.03 DU GABARIT NSI 2.0 */
+/* CLF 2.0 TEMPLATE VERSION 1.04 | VERSION 1.04 DU GABARIT NSI 2.0 */
 /* GENERAL CSS BEGINS | DEBUT DU CSS GENERAL */
 body, p, blockquote, table, td, th, li, a, ul, ol, input, dd, dl, dt,
 form, input, button, textarea, select, option, fieldset, label {
@@ -64,13 +64,13 @@ h5, .h5Size, .fontSize120 {
 .fontSize115  {
 	font-size: 115%;
 }
-h6, .h6Size, .fontSize110 {
+h6, .h6Size, .fontSize110, h1.headline, h2.headline, h3.headline, h4.headline, h5.headline, h6.headline {
 	font-size: 110%;
 }
 .fontSize105 {
 	font-size: 105%;
 }
-.fontSize100, .topPage, h1.headline, h2.headline, h3.headline, h4.headline, h5.headline, h6.headline {
+.fontSize100, .topPage {
 	font-size: 100%;
 }
 .fontSize95 {
@@ -115,7 +115,7 @@ p.breadcrumb {
 /* BREAD CRUMB CSS ENDS | FIN DU CSS DE LA PISTE DE NAVIGATION */
 
 /* GENERAL NAVIGATION CSS BEGINS | DEBUT DU CSS DE NAVIGATION GENERALE */
-h2.nav {
+h2.nav, div.nav, p.nav {
 	font-size: 100%;
 }
 /* GENERAL NAVIGATION CSS ENDS | FIN DU CSS DE NAVIGATION GENERALE */

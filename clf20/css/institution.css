@@ -699,3 +699,12 @@ ref: http://recherche-search.gc.ca/css/search.css
   width: 100%; 
   overflow: hidden;
 }
+
+
+/* ---------- paragraph style for left navigation ------------- */
+.leftNav p{
+	background-color:#DDDDBB;
+	margin:0 0 0 0;
+	padding:0 1px 1px;
+	padding-left: 6px;
+}
