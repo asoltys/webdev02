@@ -1,0 +1,159 @@
+/* CLF 2.0 TEMPLATE VERSION 1.03 | VERSION 1.03 DU GABARIT NSI 2.0 */
+/* PWGSC TEMPLATE V1.0 | V1.0 DU GABARIT TPSGC */
+/* GENERAL CSS BEGINS | DEBUT DU CSS GENERAL */
+body {
+	background-color: #DDDDBB;
+}
+div.colLayout {
+	background-color: #FFF;
+	height: 100%;
+}
+/* GENERAL CSS ENDS | FIN DU CSS GENERAL */
+
+/* FIP HEADER CSS BEGINS | DEBUT DU CSS DE L'EN-TETE PCIM */
+div.fip, div.cwm {
+	height: 30px;
+}
+div.cwm img {
+	padding-top: 0px;
+}
+/* FIP HEADER CSS ENDS | FIN DU CSS DE L'EN-TETE PCIM */
+
+/* INSTITUTIONAL BANNER CSS BEGINS | DEBUT DU CSS DE LA BANNIERE INSTITUTIONNELLE */
+div.banner {
+	background-color: #cccccc;
+	color: #FFF;
+	background: url(/clf20/images/pw-banner.jpg) #369 /*DT modified sept 7 #286*/ no-repeat center center;
+}
+div.banner-eng, div.banner-lfcoa-eng {
+	background: url(/clf20/images/pw-banner.jpg) #369 /*DT modified sept 7 #286*/ no-repeat center center;
+}
+div.banner-fra, div.banner-lfcoa-fra {
+	background: url(/clf20/images/pw-banner.jpg) #369 /*DT modified sept 7 #286*/ no-repeat center center;
+}
+/* INSTITUTIONAL BANNER CSS ENDS | FIN DU CSS DE LA BANNIERE INSTITUTIONNELLE */
+
+/* SKIP NAVIGATION CSS BEGINS | DEBUT DU CSS DU SAUT DE NAVIGATION */
+div.page div.core div.navaid {
+	width: 450px;
+	padding-left: 50px;
+}
+* html div.page div.core div.navaid {
+	width: 450px;
+	padding-left: 50px;
+}
+*:first-child+html div.page div.core div.navaid {
+	width: 450px;
+	padding-left: 50px;
+}
+div.page div.core div.navaid a:hover,
+div.page div.core div.navaid a:active,
+div.page div.core div.navaid a:focus {
+	color: #000;
+	background-color: #CC9;
+	border-color: #000;
+}
+/* SKIP NAVIGATION CSS ENDS | FIN DU CSS DU SAUT DE NAVIGATION */
+
+/* GENERAL NAVIGATION CSS BEGINS | DEBUT DU CSS DE NAVIGATION GENERALE */
+h2.nav {
+	border-bottom: 2px solid #fff;
+}
+
+h2.nav, h2.nav a:link, h2.nav a:visited, h2.nav a:hover {
+	background-color: #226644;
+	color: #FFF;
+	text-decoration: none;
+}
+
+/* GENERAL NAVIGATION CSS ENDS | FIN DU CSS DE NAVIGATION GENERALE */
+
+/* SIDE MENU CSS BEGINS | DEBUT DU CSS DU MENU LATERAL */
+div.left li.menucontent, div.left div.menucontent {
+    border-bottom: 2px solid #FFF;
+}
+div.left li.menucontent, div.left div.menucontent, div.left a.menulink {
+	color: #000;
+	background-color: #336699 /* DT modified sept 7 #DDDDBB*/;
+}
+
+div.left ul li a:hover {
+	text-decoration: none ;
+	background-color: #FFF;
+	color: #000;	
+	background: #FFF;
+	border-top: 0px solid #ccc; /* DT #	border-top: 1px solid #ccc;*/
+	border-bottom: 0px solid #ccc; /* DT #	border-bottom: 1px solid #ccc; */
+}
+
+
+div.right ul li a:hover {
+	text-decoration:underline ;
+	background-color: #FFF;
+	color: #336666;
+	background: #FFF;
+} 
+
+div.right li.menucontent, div.right div.menucontent {
+	color: #000;
+	background-color: #fff;
+}
+
+div.right a.menulink {
+	color: #264;
+	background-color: #fff;
+	text-decoration:underline ;
+}
+div.right a.menulink:hover {
+	text-decoration:underline ;
+	background-color: #FFF;
+	color: #333;
+} 
+
+div.right li ul.nav, div.right li div.nav, div.right li p.nav {
+	border: 2px solid #226644;
+}
+
+div.prodis {
+	background-color: #336699; /* DT background-color: #cccccc; */
+}
+
+/* SIDE MENU CSS ENDS | FIN DU CSS DU MENU LATERAL */
+
+/* CONTENT CSS BEGINS | DEBUT DU CSS DU CONTENU */
+div.center h1, h2, h3, h4, h5, h6 {
+	color: #369 /*DT modified sept 7 #366*/;
+}
+div.center a:link {
+	color: #369 /*DT modified sept 7 #006666*/;
+}
+
+div.center a:visited {
+	color: #663333 /*DT modified sept 7 #996600*/;
+}
+
+div.blackborder {
+	border: solid #000 1px;
+}
+
+/* DT do not remove
+div.blackborder:after {
+	content: ""; 
+	display: block; 
+	height: 0; 
+	clear: left;
+	visibility: hidden;
+} */
+
+/* CONTENT CSS ENDS | FIN DU CSS DU CONTENU */
+
+/* FOOTER CSS BEGINS | DEBUT DU CSS DU PIED DE LA PAGE */
+div.footer div.footerline {
+	background-color: #336699; /*DT modified from #226644 sept 7*/
+}
+
+div.footer a:link, div.footer a:visited, div.center div.footer a:link, div.center div.footer a:visited, div.center div.topPage a:link, div.center div.topPage a:visited, div.center p.topPage a:link, div.center p.topPage a:visited {
+	color: #336699; /*DT modified from #006666 sept 7*/
+	background-color: #fff;
+}
+/* FOOTER CSS ENDS | FIN DU CSS DU PIED DE LA PAGE */
